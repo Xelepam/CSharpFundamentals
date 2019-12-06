@@ -20,7 +20,23 @@ Applications are composed of these Assemblys. <br/>
 <br/>
 
 # Primitive Types & Expressions
+"""
+C# Type - .NET Type - Bytes - Range <br/>
+byte - Byte - 1 - 0 to 255 <br/>
+short - Int16 - 2 - -32,768 to 32,767 <br/>
+int - Int32 - 4 - -2.1B to 2.1B <br/>
+long - Int64 - 8 - ... <br/>
+float - Single - 4 - -3.4x10^38 to 3.4x10^38 <br/>
+double - Double - 8 - ... <br/>
+decimal - Decimal - 16 - -7.9x10^28 to 7.9x10^28 <br/>
+char - Char - 2 - Unicode Characters <br/>
+bool - Boolean - 1 - True or False <br/>
+"""
+<br/>
 - Variables & Constants <br/>
+    - Variable : A name given to a storage location in memory. <br/>
+    - Constants : An immutable value. <br/>
+<br/>
 - Overflowing <br/>
 - Scope <br/>
 - Type Conversion <br/>
